@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: partner-catalog-owfl
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/asaran-tenant/partner-catalog-9/partner-catalog-owfl@sha256:b384bb1c1714e779fae942f9134d211a37c8fc3b3f853290f7a79270ea20d258
+        name: my-java-springboot
+        resources: {}
+status: {}
