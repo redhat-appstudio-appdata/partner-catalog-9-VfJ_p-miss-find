@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog-owfl
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads/asaran-tenant/partner-catalog-9/partner-catalog-owfl@sha256:b384bb1c1714e779fae942f9134d211a37c8fc3b3f853290f7a79270ea20d258
         name: my-java-springboot
         ports:
         - containerPort: 8081
